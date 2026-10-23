@@ -1,6 +1,6 @@
-package repositories;
+package org.example.funkos.repositories;
 
-import models.funko;
+import org.example.funkos.models.funko;
 
 import java.math.BigDecimal;
 import java.util.*;

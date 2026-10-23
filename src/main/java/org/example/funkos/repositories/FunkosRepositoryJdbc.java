@@ -1,6 +1,6 @@
-package repositories;
+package org.example.funkos.repositories;
 
-import models.funko;
+import org.example.funkos.models.funko;
 import org.springframework.jdbc.core.simple.JdbcClient;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.stereotype.Repository;

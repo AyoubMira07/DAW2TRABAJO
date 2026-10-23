@@ -1,11 +1,11 @@
-package mappers;
+package org.example.funkos.mappers;
 
 
-import dto.FunkoCreateRequest;
-import dto.FunkoResponse;
-import dto.FunkoUpdateRequest;
+import org.example.funkos.dto.FunkoCreateRequest;
+import org.example.funkos.dto.FunkoResponse;
+import org.example.funkos.dto.FunkoUpdateRequest;
 
-import models.funko;
+import org.example.funkos.models.funko;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;

@@ -1,4 +1,4 @@
-package dto;
+package org.example.funkos.dto;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

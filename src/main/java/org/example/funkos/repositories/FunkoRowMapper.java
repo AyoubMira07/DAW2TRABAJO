@@ -1,7 +1,7 @@
-package repositories;
+package org.example.funkos.repositories;
 
 import org.springframework.jdbc.core.RowMapper;
-import models.funko;
+import org.example.funkos.models.funko;
 import org.springframework.stereotype.Component;
 
 import java.sql.ResultSet;

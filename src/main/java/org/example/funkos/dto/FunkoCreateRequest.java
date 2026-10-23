@@ -1,4 +1,4 @@
-package dto;
+package org.example.funkos.dto;
 
 
 import jakarta.validation.constraints.*;

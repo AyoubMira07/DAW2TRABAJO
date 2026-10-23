@@ -1,10 +1,10 @@
-package services;
+package org.example.funkos.services;
 
 
-import dto.EstadisticasResponse;
-import dto.FunkoCreateRequest;
-import dto.FunkoResponse;
-import dto.FunkoUpdateRequest;
+import org.example.funkos.dto.EstadisticasResponse;
+import org.example.funkos.dto.FunkoCreateRequest;
+import org.example.funkos.dto.FunkoResponse;
+import org.example.funkos.dto.FunkoUpdateRequest;
 
 import java.math.BigDecimal;
 import java.util.List;

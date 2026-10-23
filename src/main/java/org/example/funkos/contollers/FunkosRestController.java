@@ -1,14 +1,14 @@
-package contollers;
+package org.example.funkos.contollers;
 
 
-import dto.EstadisticasResponse;
-import dto.FunkoCreateRequest;
-import dto.FunkoResponse;
-import dto.FunkoUpdateRequest;
+import org.example.funkos.dto.EstadisticasResponse;
+import org.example.funkos.dto.FunkoCreateRequest;
+import org.example.funkos.dto.FunkoResponse;
+import org.example.funkos.dto.FunkoUpdateRequest;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import services.FunkosService;
+import org.example.funkos.services.FunkosService;
 
 import java.math.BigDecimal;
 import java.net.URI;

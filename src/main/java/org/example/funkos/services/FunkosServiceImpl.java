@@ -1,18 +1,18 @@
-package services;
+package org.example.funkos.services;
 
-import dto.EstadisticasResponse;
-import dto.FunkoCreateRequest;
-import dto.FunkoResponse;
-import dto.FunkoUpdateRequest;
-import exceptions.FunkoConflictException;
-import exceptions.FunkoNotFoundException;
-import mappers.FunkoMapper;
-import models.funko;
+import org.example.funkos.dto.EstadisticasResponse;
+import org.example.funkos.dto.FunkoCreateRequest;
+import org.example.funkos.dto.FunkoResponse;
+import org.example.funkos.dto.FunkoUpdateRequest;
+import org.example.funkos.exceptions.FunkoConflictException;
+import org.example.funkos.exceptions.FunkoNotFoundException;
+import org.example.funkos.mappers.FunkoMapper;
+import org.example.funkos.models.funko;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import repositories.FunkosRepository;
+import org.example.funkos.repositories.FunkosRepository;
 
 import java.math.BigDecimal;
 import java.util.Comparator;

@@ -1,4 +1,4 @@
-package models;
+package org.example.funkos.models;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 public class funko {
